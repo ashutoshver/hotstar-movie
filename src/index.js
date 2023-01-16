@@ -8,13 +8,13 @@ function Card(props) {
   return (
     <>
       <div className="cards">
-        <a href={props.links} target='_blank'>
+        <a href={props.links}>
         <div className="card">
           <img src={props.imgsrc} alt="myPic" className="card_img" />
           <div className="card_info">
             <span className="card_category">{ props.title}</span>
             <h3 className="card_title">{props.MovName}</h3>
-              <a href={props.links} target='_blank'>
+              <a href={props.links}>
               <button>Watch Now</button>
               </a>
           </div>
