@@ -10,9 +10,9 @@ function Card(props) {
         <div className="card">
           <img src={props.imgsrc} alt="myPic" className="card_img" />
           <div className="card_info">
-            <span className="card_category"></span>
+            <span className="card_category">{ props.title}</span>
             <h3 className="card_title">{props.MovName}</h3>
-            <a href="" target="_blank">
+            <a href={props.links} >
               <button>Watch Now</button>
             </a>
           </div>
