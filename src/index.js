@@ -11,7 +11,7 @@ function Card(props) {
           <img src={props.imgsrc} alt="myPic" className="card_img" />
           <div className="card_info">
             <span className="card_category"></span>
-            <h3 className="card_title">RAID</h3>
+            <h3 className="card_title">{props.MovName}</h3>
             <a href="" target="_blank">
               <button>Watch Now</button>
             </a>
